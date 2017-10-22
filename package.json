@@ -1,10 +1,10 @@
 {
-  "name": "in-progress",
+  "name": "has-pr",
   "version": "1.0.0",
   "description": "",
   "author": "Bryan Clark <clarkbw@github.com>",
   "license": "ISC",
-  "repository": "https://github.com/clarkbw/in-progress.git",
+  "repository": "https://github.com/clarkbw/has-pr.git",
   "scripts": {
     "start": "probot run ./index.js",
     "test": "jest"

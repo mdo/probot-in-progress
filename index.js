@@ -9,7 +9,7 @@ async function addLabel(context) {
     await issues.forEach(async issue => {
       const params = context.issue({
         number: issue,
-        labels: ["in-progress"]
+        labels: ["has-pr"]
       });
       await context.github.issues.addLabels(params);
     });
